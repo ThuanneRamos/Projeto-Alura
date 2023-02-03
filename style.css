@@ -1,0 +1,106 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/736x/58/75/93/5875932d1ba412ef10bb3b070e907795.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #FFF;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#listaLivros {
+  margin: 10px;
+  max-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+#listaLivros img {
+  margin: 10px;
+  max-height: 250px; 
+}
+#listaLivros h3 {
+  color: white;
+  font-size: px;
+  margin: 10px; 
+}
+
+#listaLivros button{
+  display: flex;
+  position: relative;
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  /*font-weight: bold;*/ 
+  padding: 5px 8px;
+  font-size: 14px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+  top: 30px;
+  left: 0px;
+ 
+}
+
+#listaLivros button:hover{
+background-color: darkred;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-wrapper input {
+  display: block flow;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.add-livro button {
+  display: block-flow;
+  text-align: center;
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;  
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-livro button:hover {
+  opacity: 0.8;
+}
